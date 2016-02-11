@@ -54,6 +54,6 @@ public class Main {
                 rightAnswers++;
             }
         }
-        System.out.println(String.format("Вы правильно ответили на %s вопроса из %s(%.1f)", rightAnswers, allQuestion, (rightAnswers == 0 ? 0: (float) rightAnswers*100/ (float)allQuestion)));
+        System.out.println(String.format("Вы правильно ответили на %s вопроса из %s(%.1f%%)", rightAnswers, allQuestion, (rightAnswers == 0 ? 0: (float) rightAnswers*100/ (float)allQuestion)));
     }
 }
