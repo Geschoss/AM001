@@ -3,7 +3,14 @@ package ru.geschoss;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
+/**
+ * Класс хранящий вопрос и варианты ответов на них
+ * конструктор получает на вход String[]
+ * где String[0] - Вопрос
+ * где String[1] - правильный ответ
+ * String[2...] - не правильные ответы
+ *
+*/
 public class Question {
     private String question;
     private ArrayList<String> answerVersion = new ArrayList<String>();
