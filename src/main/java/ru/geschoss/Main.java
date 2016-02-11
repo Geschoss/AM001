@@ -25,6 +25,7 @@ public class Main {
                 }
                 arrayQuestion.add(new Question(splitStr));
             }
+            reader.close();
         } catch (FileNotFoundException e) {
             System.out.println("Файл test_questions.txt, не найдет!");
         } catch (IOException e) {
