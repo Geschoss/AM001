@@ -9,8 +9,7 @@ import java.util.Collections;
  * где String[0] - Вопрос
  * где String[1] - правильный ответ
  * String[2...] - не правильные ответы
- *
-*/
+ */
 public class Question {
     private String question;
     private ArrayList<String> answerVersion = new ArrayList<String>();
